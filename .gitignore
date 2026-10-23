@@ -1,0 +1,45 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# ---------- Virtual environments ----------
+venv/
+.venv/
+env/
+
+# ---------- Secrets (never upload these) ----------
+.env
+*.env
+.env.*
+secrets.json
+
+# ---------- ML models (too large for GitHub, 100 MB file limit) ----------
+backend/models/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+# ---------- Data and uploaded documents ----------
+# Real or private documents should not be public.
+# If you want to show a small sample, remove the data lines below
+# and keep only a few sample files in the folder.
+data/
+backend/data/
+uploads/
+*.log
+
+# ---------- Editor and OS files ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
